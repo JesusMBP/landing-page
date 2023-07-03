@@ -1,0 +1,64 @@
+header{
+    
+    height: 200x;
+    color: white;
+    background-color: rgba(39, 88, 158, 0.928);
+    display: flex;
+    flex:1;
+    
+    
+    
+}
+header section{
+    
+    height: 50px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    flex:1 1 0;
+}
+section.container1{
+    display: flex;
+    height:300px;
+    background-color: rgba(39, 88, 158, 0.928);
+}
+
+header + section.container1>section{
+    justify-content: center;
+    flex: 1;
+}
+img{
+    height: 300px;
+    width: auto;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+header + section.container1 +section.container2 {
+    display:flex;
+    
+    
+}
+
+header + section.container1 +section.container2 section {
+    flex: 1 1 auto;
+    border: 5px solid black;
+    
+    
+}
+section.container2 img{
+    height: 100px;
+    width: auto;
+}
+
+
+
+    
+
+
+
+
